@@ -168,17 +168,18 @@ ul a:hover{
 }
 
 .box-sinistra{
-    height: 500px;
+    height: 400px;
     background-image: url(img/logo\ personale.svg);
     background-position: center;
     background-repeat: no-repeat;
     object-fit: contain;
-    margin-bottom: 100px;
+    
 }
 
 .box-destra{
-    height: 200px;
-    position: relative; 
+    height: 100px;
+    margin-bottom: 150px;
+    margin-top: 40px;
 }
 
 
@@ -591,6 +592,8 @@ footer p{
     .box-img-about{
         margin: 0 5px 0 5px;
     }
+
+    
 }
 
 
