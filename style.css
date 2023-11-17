@@ -8,9 +8,7 @@
 
 header{
     display: flex;
-    width: 100%;
-    height: 60px;
-    position: relative;
+    height: 100px;
 }
 
 #menuToggle{
@@ -167,7 +165,6 @@ ul a:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100vw;
 }
 
 .box-sinistra{
@@ -176,14 +173,12 @@ ul a:hover{
     background-position: center;
     background-repeat: no-repeat;
     object-fit: contain;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .box-destra{
     height: 200px;
     position: relative; 
-    margin-top: 10px;
-    
 }
 
 
@@ -316,12 +311,10 @@ ul a:hover{
 }
 
 .pagina-about{
-    height: 700px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 20px;
-    width: 100vw;
 }
 
 .box-img-about{
@@ -331,27 +324,22 @@ ul a:hover{
     object-fit: contain;
     height: 220px;
     margin-bottom: 60px;
+    display: flex;
+    
 }
 
 .box-testo-about{
     height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
-    
 }
 
 .box-testo-about p{
     font-family: "Playfair Display", serif;
     font-family: "Raleway", sans-serif;
-    font-weight: lighter;
-    display: flex;
-    justify-content: center;
-    
+    font-weight: lighter; 
 }
 .testo{
-    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -360,14 +348,10 @@ ul a:hover{
 
 .box-skills{
     height: 200px;
-    position: relative;
+   
 }
 
-.skills{
-    top: 0;
-    height: 65px;
-    width: 100%;
-}
+
 
 .skills p{
     font-weight: bold;
@@ -394,9 +378,8 @@ ul a:hover{
 }
 
 .box-testo-dev{
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 20px;
-  
     height: 100px;
     font-family: "Playfair Display", serif;
     font-family: "Raleway", sans-serif;
@@ -413,7 +396,7 @@ ul a:hover{
 }
 
 .box-img-design{
-    object-fit: cover;
+    object-fit: contain;
     width: 200px;
     height: 100px;
     margin-top: 6px;
@@ -520,7 +503,7 @@ textarea{
 }
 
 .form-example{
-    margin: 20px;
+    margin-top: 20px;
 }
 
 #send{
@@ -540,7 +523,6 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 100px;
-    width: 100vw;
 }
 .box-footer-false{
     margin-top: 145px;
@@ -562,28 +544,14 @@ footer p{
 }
 
 @media only screen and (max-width: 1200px){
-    .box-generale{
-        grid-template-columns: 1fr;
-    }
-
+    
     .box-sinistra{
         height: 500px;
-        width: 100vw;
     }
 
     .box-destra{
     height: 220px;
     }
-
-    .box-button{
-        left: 35%;
-    }
-
-    .testo{
-        margin-left: 20%;
-    }
-
-    
 }
 
 @media only screen and (max-width: 800px){
@@ -605,9 +573,7 @@ footer p{
 }
 
 @media only screen and (max-width:600px){
-    .box.form{
-        width: 100vw;
-    }
+   
 
     .box-button{
         flex-direction: column;
@@ -622,10 +588,8 @@ footer p{
     }
 
     .box-sinistra{
-        height: 300px;
+        height: 400px;
     }
-
-    
 }
 
 @media only screen and (min-width:600px){

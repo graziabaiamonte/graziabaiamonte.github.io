@@ -25,6 +25,7 @@ body p{
     background-repeat: no-repeat;
     object-fit: contain;
     height: 220px;
+    margin-top: 0;
 }
 
 .formazione{
