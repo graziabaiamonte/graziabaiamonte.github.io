@@ -452,7 +452,8 @@ ul a:hover{
 
 
 .pagina-contact{
-    height: 700px;
+    height: 900px;
+    background-color: #e6e6e6;
 }
 
 .box-img-contact{
@@ -467,11 +468,10 @@ ul a:hover{
 
 .box-form{
     margin: 0 auto; 
-    width: 400px;
     height: 580px;
     display: flex;
     justify-content: center;
-    background-color: #e6e6e6;
+    
 }
 
 .form-example label{
@@ -523,10 +523,10 @@ textarea{
 footer{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+   
 }
 .box-footer-false{
-    margin-top: 145px;
+    
     background-color: #e6e6e6;
     height: 80px;
 }
