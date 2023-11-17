@@ -321,7 +321,7 @@ ul a:hover{
     background-image: url(img/about-img.svg);
     background-position: center;
     background-repeat: no-repeat;
-    object-fit: contain;
+    object-fit: cover;
     height: 220px;
     margin-bottom: 60px;
     display: flex;
@@ -592,13 +592,16 @@ footer p{
     }
 }
 
-@media only screen and (min-width:600px){
+@media only screen and (min-width:700px){
     .contact-button{
         margin-left: 35px;
     }
 
     .box-testo-about{
         margin: 15px;
+    }
+    .box-img-about{
+        margin: 0 5px 0 5px;
     }
 }
 
