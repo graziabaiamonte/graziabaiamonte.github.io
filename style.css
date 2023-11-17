@@ -6,8 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,600&family=Raleway:ital,wght@0,400;0,600;1,300&display=swap');
 
-
-
 header{
     display: flex;
     width: 100%;
@@ -184,7 +182,7 @@ ul a:hover{
     height: 200px;
     position: relative; 
     margin-top: 10px;
-    margin-bottom: 120px;
+    
 }
 
 
@@ -323,11 +321,12 @@ ul a:hover{
 
 
 .pagina-about{
-    height: 1000px;
-    margin-top: 40px;
+    height: 700px;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .box-img-about{
