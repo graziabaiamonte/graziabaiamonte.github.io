@@ -5,7 +5,7 @@
 }
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,600&family=Raleway:ital,wght@0,400;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,900;1,600&family=Raleway:ital,wght@0,400;0,600;1,300&display=swap');
 
 
 body p{
@@ -25,7 +25,7 @@ body p{
     background-repeat: no-repeat;
     object-fit: contain;
     height: 220px;
-    margin-top: 0;
+    
 }
 
 .formazione{
