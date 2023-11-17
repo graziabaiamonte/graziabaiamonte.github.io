@@ -348,7 +348,7 @@ ul a:hover{
 
 .box-skills{
     height: 200px;
-    margin-bottom: 80px;
+    margin-bottom: 210px;
    
 }
 
@@ -432,6 +432,7 @@ ul a:hover{
     display: flex;
     justify-content: center;
     margin-top: 60px;
+    margin-bottom: 210px;
 }
 
 .img-work1{
