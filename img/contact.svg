@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 450.4">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-3 {
+        fill: #93278f;
+        font-size: 73px;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: LaoMN, 'Lao MN';
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: #b3b3b3;
+        font-size: 455.26px;
+      }
+    </style>
+  </defs>
+  <text class="cls-4" transform="translate(96.49 351.7) scale(.77 1)"><tspan x="0" y="0">CON</tspan><tspan class="cls-1" x="1057.01" y="0">T</tspan><tspan class="cls-5" x="1306.2" y="0">A</tspan><tspan class="cls-7" x="1592.52" y="0">CT</tspan></text>
+  <rect class="cls-8" x="65" y="162" width="1810" height="84"/>
+  <text class="cls-3" transform="translate(742 226.27) scale(1.18 1)"><tspan x="0" y="0">CON</tspan><tspan class="cls-2" x="169.49" y="0">T</tspan><tspan class="cls-6" x="209.45" y="0">A</tspan><tspan x="255.36" y="0">CT</tspan></text>
+</svg>

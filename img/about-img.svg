@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 450.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #93278f;
+        font-size: 73px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: LaoMN, 'Lao MN';
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #b3b3b3;
+        font-size: 455.26px;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(402.49 378.7) scale(.77 1)"><tspan x="0" y="0">ABOUT</tspan></text>
+  <rect class="cls-3" x="352" y="189" width="1235" height="84"/>
+  <text class="cls-1" transform="translate(858 253.27) scale(1.18 1)"><tspan x="0" y="0">ABOUT</tspan></text>
+</svg>

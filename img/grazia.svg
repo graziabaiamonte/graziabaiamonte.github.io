@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 450.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #93278f;
+        font-size: 41.25px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: LaoMN, 'Lao MN';
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #b3b3b3;
+        font-size: 206.26px;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <text class="cls-2" transform="translate(0 284.46) scale(.95 1)"><tspan x="0" y="0">GRAZIA </tspan><tspan class="cls-3" x="790.61" y="0">B</tspan><tspan class="cls-5" x="928.8" y="0">AIAMONTE</tspan></text>
+  <rect class="cls-6" y="198.8" width="1920" height="50"/>
+  <text class="cls-1" transform="translate(408 234.93) scale(1.93 1)"><tspan x="0" y="0" xml:space="preserve">GRAZIA    </tspan><tspan class="cls-4" x="183.51" y="0">B</tspan><tspan x="211.15" y="0">AIAMONTE</tspan></text>
+</svg>

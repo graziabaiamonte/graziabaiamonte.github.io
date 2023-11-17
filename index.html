@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <title>Grazia Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+       <header>
+            <nav role="navigation">
+                <div id="menuToggle">
+                
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                
+                
+                    <ul id="menu">
+                        <a href="#home-section"><li>HOME</li></a>
+                        <a href="#about-section"><li>ABOUT</li></a>
+                        <a href="#work-section"><li>WORK</li></a>
+                        <a href="#contact-section"><li>CONTACT</li></a>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="menu">
+                <button class="glow-on-hover-menu"><a href="#home-section">HOME</a></button>
+                <button  class="glow-on-hover-menu"><a href="#about-section">ABOUT</a></button>
+                <button class="glow-on-hover-menu"><a href="#work-section">WORK</a></button>
+                <button class="glow-on-hover-menu"><a href="#contact-section">CONTACT</a></button>
+            </div>
+        
+            <div id="home-section" class="social">
+                <a href="https://www.instagram.com/_grazia_baiamonte_/"> <img height="24px"  src="img/icons8-instagram (2).svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/grazia-baiamonte-035385295/"><img height="24px" src="img/icons8-linkedin-50.svg" alt=""></a>
+                <a href="https://github.com/grazia-b"><img height="24px" src="img/icons8-github.svg" alt=""></a>
+                <a href="mailto:grazia.baiamonte3@gmail.com"><img height="24px"  src="img/icons8-apple-mail.svg" alt=""></a>
+            </div>
+        </header>
+
+       
+       <div class="box-generale">
+            <div class="box-sinistra"></div>
+
+            <div class="box-destra">
+                
+                <div class="box-button">
+                    <div class="download-button">
+                        <a href="cv.html"><button class="glow-on-hover">VIEW CV</button></a>
+                    </div>
+                    <div class="contact-button">
+                        <a href="#contact-section"><button class="glow-on-hover">GET IN TOUCH!</button></a>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <div id="about-section"></div>
+       <div class="pagina-about">
+            <div class="box-img-about"></div>
+            <div class="box-testo-about">
+                <div class="testo">
+                    <p>Stuedentessa universitaria, a breve conseguirò la 
+                    laurea in Design del prodotto e della Moda (L-4). 
+                    <p>Attualmente frequento i corsi di UX/UI Design e 
+                    Development di Start2impact. </p>
+                    </p>
+
+                    <p>Possiedo competenze tanto in ambito grafico quanto in sviluppo
+                    web, con l'obiettivo di raggiungere il ruolo di Front-end Development.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-skills">
+                <div class="skills">
+                    <p>SKILLS</p>
+                </div>
+                <div class="box-testo-skills">
+
+                    <div class="dev">
+                        <div class="box-img-dev">
+                            <img width="164px" height="64px" src="img/dev.svg" alt="">
+                        </div>
+                        <div class="box-testo-dev">
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+
+                    <div class="design">
+                        <div class="box-img-design">
+                            <img height="36px" src="img/icons8-photoshop.svg" alt="">
+                            <img height="36px" src="img/icons8-adobe-illustrator.svg" alt="">
+                            <img height="36px" src="img/icons8-adobe-indesign.svg" alt="">
+                            <img height="36px" src="img/icons8-adobe-xd.svg" alt="">
+                        </div>
+                        <div class="box-testo-design">
+                            <p>Web Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <div id="work-section"></div>
+        <div class="pagina-work">
+            <div class="box-img-work"></div>
+                <div class="box-work">
+                    <div class="work1">
+                        <div class="img-work1"></div>
+                        <div class="view1">
+                        <a href="work/progetto copywriting.pdf" target="_blank"><button class="glow-on-hover">View more</button></a>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <div id="contact-section"></div>
+       <div class="pagina-contact">
+            <div class="box-img-contact"></div>
+            <div class="box-form">
+                <form action="https://formsubmit.co/grazia.baiamonte3@gmail.com" method="POST" >
+                    <div class="form-example">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                
+                    <div class="form-example">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form-example">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form-example">
+                        <input id="send" type="submit" value="SEND">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+        
+
+       <footer>
+            <div class="box-footer-false"></div>
+            <div class="box-footer">
+                <p>Copyright &#169; 2023 by Grazia Baiamonte | All Rights Reserved</p>
+            </div>
+        </footer>
+
+       
+    
+        <script>
+            function myFunction() {
+            var x = document.getElementById("mylinks");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+            x.style.display = "block";
+            }
+            }
+        </script>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+ 

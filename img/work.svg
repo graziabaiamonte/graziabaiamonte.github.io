@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 450.4">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #93278f;
+        font-size: 73px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: LaoMN, 'Lao MN';
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #b3b3b3;
+        font-size: 455.26px;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(474.49 373.7) scale(.77 1)"><tspan class="cls-4" x="0" y="0">W</tspan><tspan class="cls-1" x="397.02" y="0">ORK</tspan></text>
+  <rect class="cls-7" x="354" y="180" width="1235" height="84"/>
+  <text class="cls-2" transform="translate(886 245.27) scale(1.18 1)"><tspan class="cls-5" x="0" y="0">W</tspan><tspan class="cls-6" x="63.66" y="0">ORK</tspan></text>
+</svg>
