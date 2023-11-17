@@ -457,7 +457,7 @@ ul a:hover{
     background-image: url(img/contact.svg);
     background-position: center;
     background-repeat: no-repeat;
-    object-fit: contain;
+    object-fit: cover;
     height: 220px;
     margin-bottom: 70px;
 }
@@ -596,7 +596,12 @@ footer p{
     .contact-button{
         margin-left: 35px;
     }
+
+    .box-testo-about{
+        margin: 15px;
+    }
 }
+
 
 
 
