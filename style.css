@@ -347,6 +347,10 @@ ul a:hover{
     text-align: center;
 }
 
+.testo span{
+    font-weight: 700;
+}
+
 .box-skills{
     height: 200px;
     margin-bottom: 210px;

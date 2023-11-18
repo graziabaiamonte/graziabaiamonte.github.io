@@ -14,6 +14,10 @@ body p{
     font-weight: lighter;
 }
 
+h2{
+    font-family: "Playfair Display", serif;
+    font-family: "Raleway", sans-serif;
+}
 
 .pagina-cv{
     height: 200px;
