@@ -337,12 +337,14 @@ h1{
     height: 100%;
     width: 100%;
     object-fit: contain;
+    
 }
 
 .box-testo-about{
     height: 200px;
     display: flex;
     flex-direction: column;
+    margin: 40px 10px 10px 20px;
 }
 
 .box-testo-about p{
@@ -455,7 +457,6 @@ h1{
     height: 300px;
     margin-bottom: 56px;
     width: 400px;
-    
 }
 
 .img-work1 img{
