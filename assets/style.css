@@ -148,6 +148,13 @@ ul a:hover{
     display: flex;
 }
 
+h1{
+    align-self: center;
+    font-family: "Playfair Display", serif;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+}
+
 .contact-button a{
     color: white;
     text-decoration: none;
@@ -169,11 +176,12 @@ ul a:hover{
 
 .box-sinistra{
     height: 400px;
-    background-image: url(assets/img/logopersonale.svg);
-    background-position: center;
-    background-repeat: no-repeat;
+}
+
+.box-sinistra img{
     object-fit: contain;
-    
+    width: 100%;
+    height: 100%;
 }
 
 .box-destra{
@@ -319,14 +327,16 @@ ul a:hover{
 }
 
 .box-img-about{
-    background-image: url(assets/img/about-img.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
     height: 220px;
     margin-bottom: 60px;
     display: flex;
     
+}
+
+.box-img-about img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .box-testo-about{
@@ -416,12 +426,14 @@ ul a:hover{
 }
 
 .box-img-work{
-    background-image: url(assets/img/work.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: contain;
     height: 220px;
     margin-bottom: 120px;
+}
+
+.box-img-work img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 .work1{
@@ -438,19 +450,23 @@ ul a:hover{
 }
 
 .img-work1{
-    background-image: url(assets/img/progettocopywriting-1.jpg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
     height: 300px;
-   
+    margin-bottom: 56px;
+}
+
+.img-work1 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
 .view1{
     height: 150px;
-    width: 300px;
+   
     text-align: center;
 }
+
+
 
 
 .pagina-contact{
@@ -459,14 +475,15 @@ ul a:hover{
 }
 
 .box-img-contact{
-    background-image: url(assets/img/contact.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
     height: 220px;
     margin-bottom: 70px;
 }
 
+.box-img-contact img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
 
 .box-form{
     margin: 0 auto; 
