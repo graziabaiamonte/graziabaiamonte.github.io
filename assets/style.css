@@ -500,7 +500,7 @@ h1{
 }
 
 .box-img-contact img {
-    object-fit: fill;
+    object-fit: contain;
     height: 100%;
     width: 100%;
 }
