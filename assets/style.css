@@ -148,6 +148,10 @@ ul a:hover{
     display: flex;
 }
 
+.social img{
+    height: 24px;
+}
+
 h1{
     align-self: center;
     font-family: "Playfair Display", serif;
@@ -388,8 +392,12 @@ h1{
 }
 
 .box-img-dev{
-    
     height: 100px;
+}
+
+.box-img-dev img{
+    width:"164px";
+    height: 64px;
 }
 
 .box-testo-dev{
@@ -415,6 +423,10 @@ h1{
     width: 200px;
     height: 100px;
     margin-top: 6px;
+}
+
+.box-img-design img{
+    height: 36px;
 }
 
 .box-testo-design{
@@ -489,10 +501,10 @@ h1{
 }
 
 .box-form{
-    
     height: 580px;
     display: flex;
     justify-content: center;
+    margin: 20px;
     
 }
 
