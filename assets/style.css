@@ -428,6 +428,7 @@ h1{
 .box-img-work{
     height: 220px;
     margin-bottom: 120px;
+    
 }
 
 .box-img-work img{
@@ -439,7 +440,7 @@ h1{
 .work1{
     display: flex;
     flex-direction: column;
-   justify-content: center;
+    justify-content: center;
 }
 
 .box-work{
@@ -447,11 +448,14 @@ h1{
     justify-content: center;
     margin-top: 60px;
     margin-bottom: 210px;
+    
 }
 
 .img-work1{
     height: 300px;
     margin-bottom: 56px;
+    width: 400px;
+    
 }
 
 .img-work1 img{
@@ -466,8 +470,6 @@ h1{
 }
 
 
-
-
 .pagina-contact{
     height: 900px;
     background-color: #e6e6e6;
@@ -476,6 +478,7 @@ h1{
 .box-img-contact{
     height: 220px;
     margin-bottom: 70px;
+    margin: 56px;
 }
 
 .box-img-contact img {
@@ -485,7 +488,7 @@ h1{
 }
 
 .box-form{
-    margin: 0 auto; 
+    
     height: 580px;
     display: flex;
     justify-content: center;
