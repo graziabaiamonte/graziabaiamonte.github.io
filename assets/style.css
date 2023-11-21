@@ -11,6 +11,10 @@ header{
     height: 100px;
 }
 
+h2{
+    display: none;
+}
+
 #menuToggle{
     display: block;
     position: relative;
