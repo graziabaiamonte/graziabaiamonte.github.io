@@ -495,14 +495,13 @@ h1{
 
 .box-img-contact{
     height: 220px;
-    margin-bottom: 70px;
-    
 }
 
 .box-img-contact img {
     object-fit: contain;
     height: 100%;
     width: 100%;
+    object-position: center;
 }
 
 .box-form{
