@@ -453,10 +453,10 @@ h1{
 .box-work{
     display: flex;
     justify-content: center;
-    height: 900px;
+    height: 700px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 .work1{
@@ -476,6 +476,14 @@ h1{
     justify-content: center;
 }
 
+.work3{
+    height: 500px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 
 .img-work1{
    height: 300px;
@@ -487,7 +495,11 @@ h1{
    width: 320px;
 }
 
-
+.img-work3{
+    height: 300px; 
+    width: 320px;
+ }
+ 
 
 .img-work1 img{
     object-fit: contain;
@@ -501,16 +513,26 @@ h1{
     height: 100%;
 }
 
+.img-work3 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
 .view1{
     margin-top: 30px;
     text-align: center;
-    
 }
 
 .view2{
    margin-top: 30px;
    text-align: center;
 }
+
+.view3{
+    margin-top: 30px;
+    text-align: center;
+ }
 
 .pagina-contact{
     height: 900px;
@@ -621,11 +643,20 @@ footer p{
 
     .box-work{
         flex-direction: column;
+        margin-bottom: 330px;
+        margin-top: 300px;
     }
 
     #box-work2{
         margin-top: 70px;
+    
     }
+
+    #box-work3{
+        margin-top: 70px;
+    }
+
+
 }
 
 @media only screen and (min-width:800px){
