@@ -393,11 +393,15 @@ h1{
 
 .box-img-dev{
     height: 100px;
+   
+    display: flex;
+    align-items: center;
 }
 
 .box-img-dev img{
-    width:"164px";
-    height: 64px;
+    width:164px;
+    height: 34px;
+    
 }
 
 .box-testo-dev{
@@ -423,19 +427,26 @@ h1{
     width: 200px;
     height: 100px;
     margin-top: 6px;
+    
+    display: flex;
+    align-items: center;
 }
 
 .box-img-design img{
     height: 36px;
+
 }
 
 .box-testo-design{
     font-family: "Playfair Display", serif;
     font-family: "Raleway", sans-serif;
     font-weight: lighter;
-    margin-top: 20px;
+    margin-top: 6px;
     text-align: center;
     font-size: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
     
 }
 
